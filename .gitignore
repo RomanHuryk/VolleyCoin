@@ -3,6 +3,10 @@
 /tags
 *.wallet
 *.address
+private-public-keys.txt
+mine.wallet
+mine.address
+genesis.txt
 .idea
 .ycm_extra_conf.py
 .ycm_extra_conf.pyc
