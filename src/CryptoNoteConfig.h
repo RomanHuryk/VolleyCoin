@@ -75,7 +75,7 @@ const char     MINER_CONFIG_FILE_NAME[]                      = "miner_conf.json"
 //TODO Put here the name of your currency
 const char     CRYPTONOTE_NAME[]                             = "volleycoin";
 
-const char GENESIS_COINBASE_TX_HEX[] = "010a01ff0001ffffffffff3f029b2e4c0281c0b02e7c53291a94d1d0cbff8883f8024f5142ee494ffbbd0880712101bfd85c26d1a97b22a3214943f7a18c9586ea716274203c92770ececf0183e67f";
+const char GENESIS_COINBASE_TX_HEX[] = "013c01ff0001bdef9804029b2e4c0281c0b02e7c53291a94d1d0cbff8883f8024f5142ee494ffbbd08807121015724ee339d8899221a200e7d3fe168cca9ce6bc4553eb474f7d06cf3031e00a6";
 
 const uint8_t  CURRENT_TRANSACTION_VERSION                   =  1;
 const uint8_t  BLOCK_MAJOR_VERSION_1                         =  1;
@@ -123,7 +123,7 @@ __attribute__((unused))
 // You may add here other checkpoints using the following format:
 // {<block height>, "<block hash>"},
 const std::initializer_list<CheckpointData> CHECKPOINTS = {
-  { 1, "010a01ff0001ffffffffff3f029b2e4c0281c0b02e7c53291a94d1d0cbff8883f8024f5142ee494ffbbd0880712101bfd85c26d1a97b22a3214943f7a18c9586ea716274203c92770ececf0183e67f" },
+  // { 1, "010a01ff0001ffffffffff3f029b2e4c0281c0b02e7c53291a94d1d0cbff8883f8024f5142ee494ffbbd0880712101bfd85c26d1a97b22a3214943f7a18c9586ea716274203c92770ececf0183e67f" },
 };
 } // CryptoNote
 
